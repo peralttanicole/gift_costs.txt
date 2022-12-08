@@ -11,13 +11,19 @@
 # Refinando codigos
 # En este programa lo que hicimos fue refinar un codigo con los estandares establecidos en la clase
 
+import sys 
+
 # Cree una funcion que me recibia la ruta del archivo de costos como entrada y me devolvia una lista con los costos en formato numérico.
 
 def costs_list():
     with open('gift_costs.txt', 'r', encoding='UTF-8') as archivo:
         gift_costs = list(archivo)
-    gift_costs = [int(c) for c in gift_costs]  # convierte strings a int
-    archivo.close()  # cerrar el archivo después de usarlo y no ser necesario
+        try:
+          gift_costs = [int(c) for c in gift_costs]  # convierte strings a int
+          archivo.close()  # cerrar el archivo después de usarlo y no ser necesario
+        except ValueError:
+          print ("Los datos deben de ser dígitos obligatoriamente.")
+          sys.exit ()
     return gift_costs
 
 # Cree una funcion que me recibio la lista de los costos como entrada y devuelva el precio total.
