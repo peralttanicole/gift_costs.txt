@@ -1,7 +1,7 @@
 # INTRODUCCIÓN
 A continuación veras un repositorio al cual le asigné el nombre de Refinando código correspondiente a la tarea PP5 del cuso introducción a la programación. En esta ocasión estamos trabajando con la calidad de los códigos por lo que nuestro objetivo principal es limpiar el código usando una herramienta que aprendimos en clase que es pylint y pytest y a la vez vamos a crear un nuevo repositorio en GitHub que luego clonaremos. 
 
-# REFACTORIZACIÓM
+# REFACTORIZACIÓN
 Después que ya habíamos hecho los pasos anteriores lo que prosiguio fue en crear varias funciones, de las cuales la primera consistió en una función que debía de recibir la ruta de archivo de costos como entrada y debía de devolver una lista con los costos en formato númerico. Después había que crear otra que recibía la lista de los costos como entraada y devolvía el precio total y por último había que crear otra que llamaba a las anteriores para luego imprimir el precio de los regalos en pantalla. Después que teníamos esa parte, debímos de incluir un entry point desde donde sed debía llamar a la función principal. 
 
 # LIMPIEZA
