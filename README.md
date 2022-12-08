@@ -7,6 +7,10 @@ Después que ya habíamos hecho los pasos anteriores lo que prosiguio fue en cre
 # LIMPIEZA
 En esta ocasión debimos de usar pylint para poder limpiar nuestro código y a base de esto poder editarlo y conseguir una buena puntuación, con respecto a esta parte casi la mayoría de las cosas que no estaban correctas era porque había que agregar docstrings a las funciones y agregar datos, para poder cumplir con esta parte había que buscar los estándares PEP8 para poder comenzar a arreglar.
 
+  * Captura de pantalla
+  * (https://user-images.githubusercontent.com/119994410/206585277-398c5228-8067-46b8-857e-f58c1cc7f716.jpeg)
+  * (https://user-images.githubusercontent.com/119994410/206585274-0cfd5d96-782b-48cd-8cc7-010791da76bc.jpeg)
+
 # GESTIÓN DE ERRORES 
 * CONTROL DE ERRORES:
 En esta parte los errores que más me ocuparon  que salieron fue porque tenía errores con la identación pero eso se resolvió analizando el código y en la creación de la que se suponía que debía de ser mi función principal en donde no me estaba imprimiendo la respuesta correcta pero esto después se arregló ya que la segunda función entonces tomo como parámetro la primera función. También otro error fue que al usar with open () para poder abrir el archivo que teníamos con los precios pero para solucionar esto solo debíamos de cambiar el formato de la función.
@@ -20,5 +24,5 @@ Para esto utilicé pylest, en donde una era para ver si el costo total era corre
 https://github.com/peralttanicole/gift_costs.txt 
 
 
-  
-  * Captura de pantalla
+  *Captura de imagen final de commint 
+  * (https://user-images.githubusercontent.com/119994410/206585686-b5c48462-eaa4-4f1c-a499-dd00e5719260.png)
