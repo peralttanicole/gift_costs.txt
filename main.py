@@ -3,6 +3,14 @@
 # Refinando codigos
 # En este programa lo que hicimos fue refinar un codigo con los estandares establecidos en la clase
 
+
+# Cree una funcion que me recibia la ruta del archivo de costos como entrada y me devolvia una lista con los costos en formato numérico.
+
+#Nicole A. Peralta
+#22-0262
+# Refinando codigos
+# En este programa lo que hicimos fue refinar un codigo con los estandares establecidos en la clase
+
 # Cree una funcion que me recibia la ruta del archivo de costos como entrada y me devolvia una lista con los costos en formato numérico.
 
 def costs_list():
