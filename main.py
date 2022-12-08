@@ -11,34 +11,40 @@
 # Refinando codigos
 # En este programa lo que hicimos fue refinar un codigo con los estandares establecidos en la clase
 
-import sys 
+import sys
 
 # Cree una funcion que me recibia la ruta del archivo de costos como entrada y me devolvia una lista con los costos en formato numérico.
 
-def costs_list():
-    with open('gift_costs.txt', 'r', encoding='UTF-8') as archivo:
-        gift_costs = list(archivo)
+def lista_costo():
+    # Función que trae la lista de costos del archivo gift_costs.txt
+    with open('gift_costs.txt', 'r', encoding='UTF-8') as f:
+        gift_costs = list(f)
         try:
-          gift_costs = [int(c) for c in gift_costs]  # convierte strings a int
-          archivo.close()  # cerrar el archivo después de usarlo y no ser necesario
+            gift_costs = [int(c) for c in gift_costs]  # conversion de strings a int
+            f.close()  # cierra el archivo despues de ser ejecutado
         except ValueError:
-          print ("Los datos deben de ser dígitos obligatoriamente.")
-          sys.exit ()
+            print('La información debe ser numerico.')
+            sys.exit()
+
     return gift_costs
 
-# Cree una funcion que me recibio la lista de los costos como entrada y devuelva el precio total.
 
-def total(gift_costs):
+def sum_tot(gift_costs):
+    # Función que suma los precios de la lista de costos 
     total_price = 0
-    for cost in gift_costs:
-        if cost > 1000:
-            total_price += cost * 1.16  # agrega impuestos
+    for costo in gift_costs:
+        if costo > 1000:
+            total_price += costo * 1.16  # calcular impuesto
         else:
-            total_price += cost  # los costos menores a 1000 no se le agrega impuesto
+            total_price += costo  # sin impuesto los costos menores de 1000
 
     return total_price
 
-# Cree una funcion que me llamo a las anteriores para luego imprimir el precio de los regalos en pantalla.
-  
+
 def main():
-    print(total(costs_list()))
+    # Función principal que invoca las funciones y gebera el costo total
+    return print(sum_tot(lista_costo()))
+
+
+if _name_ == '_main_':
+    main()
