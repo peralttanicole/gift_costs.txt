@@ -8,10 +8,10 @@ Después que ya habíamos hecho los pasos anteriores lo que prosiguio fue en cre
 En esta ocasión debimos de usar pylint para poder limpiar nuestro código y a base de esto poder editarlo y conseguir una buena puntuación, con respecto a esta parte casi la mayoría de las cosas que no estaban correctas era porque había que agregar docstrings a las funciones y agregar datos, para poder cumplir con esta parte había que buscar los estándares PEP8 para poder comenzar a arreglar.
 
 # GESTIÓN DE ERRORES 
-* CONTROL DE ERRORES
-En esta parte los errores que más me ocuparon  que salieron fue porque tenía errores con la identación pero eso se resolvió analizando el código y en la creación de la que se suponía que debía de ser mi función principal en donde no me estaba imprimiendo la respuesta correcta pero esto después se arregló ya que la segunda función entonces tomo como parámetro la primera función. También otro error fue que al usar with open () para poder abrir el archivo que teníamos con los precios pero para solucionar esto solo debíamos de cambiar el formato de la función. 
+* CONTROL DE ERRORES *
+En esta parte los errores que más me ocuparon  que salieron fue porque tenía errores con la identación pero eso se resolvió analizando el código y en la creación de la que se suponía que debía de ser mi función principal en donde no me estaba imprimiendo la respuesta correcta pero esto después se arregló ya que la segunda función entonces tomo como parámetro la primera función. También otro error fue que al usar with open () para poder abrir el archivo que teníamos con los precios pero para solucionar esto solo debíamos de cambiar el formato de la función.
 
-*PRUEBAS UNITARIAS
+* PRUEBAS UNITARIAS *
 Para esto utilicé pylest, en donde una era para ver si el costo total era correcto, había otra que era para ver si la lista de los precios era correcta y para reconfirmar que la función nos devolvía al resultado de las otras dos que ya había hecho. 
 
   # CONTROL DE VERSIONES
